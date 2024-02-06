@@ -7,12 +7,15 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import rootReducer from "./reducers";
+import { postProfile } from './actions/profile.action';
 
 const store = configureStore({
   reducer: rootReducer,
   devTools: true,
 
 });
+
+//store.dispatch(postProfile());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

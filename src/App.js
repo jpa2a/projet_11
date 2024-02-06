@@ -9,7 +9,7 @@ import {Login} from "./pages/login.js";
 
 function App() {
   return (
-    <div className='container'>
+    <>
     <Header />
   <Routes>
   <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
     <Route path="*" element={<Page404 />}/> */}
   </Routes>
   <Footer />
- </div>
+ </>
   );
 }
 
