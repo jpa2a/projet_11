@@ -12,7 +12,7 @@ export function Home(){
           <p className="text">Open a savings account with Argent Bank today!</p>
         </section>
       </div>
-      <section className="features">Name
+      <section className="features">
         <h2 className="sr-only">Features</h2>
         <div className="feature-item">
           <img src="./images/icon-chat.png" alt="Chat Icon" className="feature-icon" />

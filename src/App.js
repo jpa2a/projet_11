@@ -15,10 +15,6 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="login" element={<Login />} />
   <Route path="user" element={<User />} />
-   {/*  <Route path="/" element={<Locations />} />
-    <Route path="/loca/:id" element={<Location />} />
-    <Route path="apropos" element={<Apropos />}/>
-    <Route path="*" element={<Page404 />}/> */}
   </Routes>
   <Footer />
  </>
